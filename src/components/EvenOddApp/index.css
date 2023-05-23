@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  border-width: 0px;
+  width: 400px;
+}
+
+.heading {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.para {
+  color: #334155;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: white;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+}
+span {
+  color: #334155;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.description {
+  color: #334155;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
